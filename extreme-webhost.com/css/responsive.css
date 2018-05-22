@@ -1,0 +1,1004 @@
+/*------------------------------------------------------------------
+ * Theme Name: HESA HOSTING - WHMCS & HTML Domain & Web Hosting Template (RTL Included)
+ * Author: coodiv
+ * Author URI: http://coodiv.net/
+ * Author URI: https://themeforest.net/user/coodiv
+ * Description: A Bootstrap Responsive Domain & Web Hosting Template + WHMCS theme LRT&RTL
+ * Version: 1.0
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2017 coodiv.
+ -------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+
+ responsive style
+
+-------------------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+.cs-mrgin-img {
+    display: none;
+}
+
+#start-web-site .helf-pictur-indx {
+    width: 100%;
+    text-align: center;
+}
+
+.cs-algo-text-whtlkhk h5 {
+    width: 100%;
+    text-align: center;
+}
+
+.cs-algo-text-whtlkhk p {
+    width: 100%;
+    text-align: center;
+}
+
+.cs-algo-text-whtlkhk a {
+    display: block;
+    margin: auto;
+    width: max-content;
+}
+
+
+.menu-toggle-cls-sidebar {
+	display:none;
+}
+
+.feruezs-afterdib .ftirehost {
+    text-align: center;
+}
+
+.feruezs-afterdib .ftirehost i {
+    float: none;
+    margin-right: 0;
+}
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+
+.nonbtc-lo-alwer{
+    width: 100%;
+    left: 0;
+}
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.nonbtc-lo-alwer{
+    padding: 0;
+}
+
+.nonbtc-lo-alwer .col-md-3{
+    width: 25%;
+    float: left;
+    padding: 0 5px;
+}
+
+.main-slider-info-il {
+    width: 100%;
+    height: 100%;
+    max-height: 190px;
+    padding: 34px 0px;
+    border-radius: 6px;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.12);
+    position: relative;
+}
+
+.our-client-img {
+    display: none;
+}
+
+
+
+.domain-search-header  .col-md-3{
+	display:none;
+}
+.domain-search-header  .col-md-9{
+	width: 100%;
+}
+
+#header-area .mobile-phone-header {
+	display:none;
+}
+
+
+
+.anoncement-wont .anoncement-header {
+    padding: 7px 13px 7px 14px;
+}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+
+#header-area .mobile-phone-header {
+	display:none;
+}
+
+
+
+.anoncement-wont .anoncement-header {
+    padding: 7px 13px 7px 14px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+#header-area .mobile-phone-header {
+	display:none;
+}
+
+#header-area .top-header .col-md-4 {
+    width: 20%;
+	float: left;
+}
+
+#header-area .top-header .col-md-8 {
+	float: right;
+}
+
+
+
+.anoncement-wont .anoncement-header {
+    padding: 7px 13px 7px 14px;
+}
+
+}
+
+@media (min-width: 425px) and (max-width: 1023px) {
+
+.phon-helf{
+	width: 50%;
+	float: left;
+}
+
+.anoncement-wont .anoncement-header p {
+    max-width: 600px;
+}
+
+.host-plan-serc-none .col-md-3 ,.comterbackwh .col-md-3{
+	width: 50%;
+	float: left;
+}
+
+.cs-mrgin-img img {
+    display: none;
+}
+
+.feedback-cost a img:nth-child(3),.feedback-cost a img:nth-child(1) {
+   display: none;
+}
+
+#email-subscribe:after {
+    top: -132px;
+}
+
+#email-subscribe:before {
+    bottom: -132px;
+}
+
+#footer .socialicons .col-md-3 a>i {
+    z-index: 2;
+}
+
+}
+
+
+
+@media (min-width: 425px) and (max-width: 768px) {
+
+
+.dsrib-prtyer p a {
+    display: block;
+    width: 140px;
+    margin: auto;
+    margin-top: 13px;
+}
+
+.dsrib-prtyer {
+    padding: 100px 0 36px;
+}
+
+.how-to-ordr-link {
+    margin-top: 20px;
+}
+
+.nonbtc-lo-alwer{
+    padding: 0;
+}
+
+.nonbtc-lo-alwer .col-md-3{
+    width: 48%;
+    float: left;
+    padding: 0 5px;
+}
+
+.nonbtc-lo-alwer .col-md-3:nth-child(3),.nonbtc-lo-alwer .col-md-3:nth-child(4){
+    display:none;
+}
+
+.our-client-img {
+    display: none;
+}
+
+
+.anoncement-wont .anoncement-header {
+    padding: 7px 13px 7px 14px;
+}
+	
+.servicesway {
+    padding: 70px 0px;
+    float: left;
+    width: 50%;
+}
+
+.plans-one-se .col-md-9 {
+    padding: 0;
+    padding-right: 0;
+}
+
+.plans-one-name {
+    text-align: center;
+}
+
+
+.plans-one-name:before {
+    display:none;
+}
+
+.plans-one-details:before {
+    display:none;
+}
+
+.hosting-futrs {
+    float: left;
+    width: 33%;
+}
+
+.icons-hosting-ftr {
+    text-align: center;
+    padding: 20px 5px;
+    border-right: 1px solid #eff2f5;
+    margin-top: 40px;
+    float: left;
+    width: 25%;
+}
+
+#start-web-site .col-md-2 {
+    float: left;
+    width: 33%;
+    padding: 5px;
+}
+
+#build-web-site h6 {
+    position: relative;
+    z-index: 1;
+}
+
+#build-web-site p {
+    position: relative;
+    z-index: 1;
+}
+
+.company {
+    display:none;
+}
+
+#footer .socialicons .col-md-3 {
+    float: left;
+    width: 25%;
+}
+
+.info-footer-text {
+	display: none;
+}
+
+.info-footer-links .col-md-4 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+ 
+.domain-search-header  .col-md-3{
+	display:none;
+}
+.domain-search-header  .col-md-9{
+	width: 100%;
+}
+
+#header-area .mobile-phone-header {
+	display:none;
+}
+
+#header-area .top-header .col-md-4 {
+    width: 20%;
+	float: left;
+}
+
+#header-area .top-header .col-md-8 {
+	float: right;
+}
+
+}
+
+
+@media (min-width: 425px) and (max-width: 768px) {
+
+
+.anoncement-wont .anoncement-header {
+    padding: 7px 13px 7px 14px;
+}
+
+
+.anoncement-wont {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.anoncement-wont p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 300px !important;
+}
+
+.no-phon-dsply{
+	display:none !important;
+}
+
+#header-area .top-header {
+    margin: 7px auto;
+}
+
+.domain-price-header a {
+    padding: 5px 5px 5px 2px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background: #fff;
+}
+
+.homa-page-tittle h3>i {
+    width: 75%;
+}
+
+.slider-makout-homepage {
+    margin: 9px 0;
+	padding: 14px 40px;
+}
+
+.slider-makout-homepage b {
+    top: 48px;
+    right: 25px;
+}
+
+.slider-makout-homepage h3 {
+    font-size: 23px;
+    color: #0066cc;
+    font-family: Lato;
+    font-weight: 900;
+    line-height: 31px;
+    margin-bottom: 16px !important;
+}
+
+.hosting-futrs {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.plans-one-details {
+    height: auto;
+}
+
+#email-subscribe {
+    padding: 60px 15px;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 699px) {
+	
+
+.domain-form .domain {
+    width: 46%;
+}
+
+.domain-form .styled-select select {
+    padding: 0 0 0 0;
+}
+
+.domain-form .submit {
+    padding: 0 4px;
+    font-size: 8px;
+}
+
+.feruezs-afterdib {
+    border: 0;
+    float: none;
+    margin: auto;
+}
+
+.domain-search-header input {
+    margin: 8px 4px;
+}
+
+.domain-header-search-btn {
+    right: 6px;
+}
+	
+.notransistion ul {
+    transition: all 0s ease-in-out;
+    background: #fff !important;
+}
+
+.anoncement-wont .anoncement-header {
+    padding: 7px 13px 7px 14px;
+}
+
+
+.anoncement-wont {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.anoncement-wont p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 130px !important;
+}
+
+.no-phon-dsply{
+	display:none !important;
+}
+
+#header-area .top-header {
+    margin: 7px auto;
+}
+
+.domain-price-header a {
+    padding: 5px 5px 5px 2px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background: #fff;
+}
+
+.homa-page-tittle h3>i {
+    width: 75%;
+}
+
+.slider-makout-homepage {
+    margin: 9px 0;
+	padding: 14px 40px;
+}
+
+.slider-makout-homepage b {
+    top: 54px;
+    right: 25px;
+    font-size: 24px;
+}
+
+.slider-makout-homepage h3 {
+    font-size: 23px;
+    color: #0066cc;
+    font-family: Lato;
+    font-weight: 900;
+    line-height: 31px;
+    margin-bottom: 16px !important;
+}
+
+.hosting-futrs {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.plans-one-details {
+    height: auto;
+}
+
+#email-subscribe {
+    padding: 60px 15px;
+}
+
+
+.anoncement-wont .anoncement-header {
+    padding: 7px 13px 7px 14px;
+}
+	
+.servicesway {
+    padding: 37px 0px;
+    float: left;
+    width: 50%;
+}
+
+.plans-one-se .col-md-9 {
+    padding: 0;
+    padding-right: 0;
+}
+
+.plans-one-name {
+    text-align: center;
+}
+
+
+.plans-one-name:before {
+    display:none;
+}
+
+.plans-one-details:before {
+    display:none;
+}
+
+.icons-hosting-ftr {
+    text-align: center;
+    padding: 20px 5px;
+    border-right: 1px solid #eff2f5;
+    margin-top: 40px;
+    float: left;
+    width: 25%;
+}
+
+#start-web-site .col-md-2 {
+    float: left;
+    width: 33%;
+    padding: 5px;
+}
+
+#build-web-site h6 {
+    position: relative;
+    z-index: 1;
+}
+
+#build-web-site p {
+    position: relative;
+    z-index: 1;
+}
+
+.company {
+    display:none;
+}
+
+#footer .socialicons .col-md-3 {
+    float: left;
+    width: 25%;
+}
+
+.info-footer-text {
+	display: none;
+}
+
+.info-footer-links .col-md-4 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+ 
+.domain-search-header  .col-md-3{
+	display:none;
+}
+.domain-search-header  .col-md-9{
+	width: 100%;
+}
+
+#header-area .mobile-phone-header {
+	display:none;
+}
+
+#header-area .top-header .col-md-4 {
+    width: 20%;
+	float: left;
+}
+
+#header-area .top-header .col-md-8 {
+	float: right;
+}
+
+.plans-one-name h5>span {
+    font-size: 20px;
+    padding: 8px 11px;
+}
+
+.plans-one-name {
+    padding: 29px 5px;
+}
+
+.mega-dropdown-menu{
+    background: #fff !important;
+}
+
+.mega-dropdown-menu .col-md-3{
+    float: left;
+    width: 50%;
+    padding: 6px;
+}
+.mega-dropdown-menu .sub-megatext{
+    width: 100%;
+    padding: 6px;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #024575;
+    border-color: #337ab7;
+}
+
+.nav>li>a:focus,.nav>li>a:hover{
+    text-decoration: none;
+    background-color: #024575;
+}
+
+
+}
+
+
+
+@media (max-width: 425px) {
+
+.plans-towkrakt .tag-host b {
+    display:none;
+}
+
+#header-area .header-links a>span {
+    display: none;
+}
+
+.icons-hosting-ftr {
+    width: 50%;
+	margin-top: 0;
+}
+
+#start-web-site .number-det-ovv {
+    background: rgba(0, 0, 0, 0.21);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    min-height: 175px;
+}
+
+#build-web-site .img-holder-build {
+    display: none;
+}
+
+#footer .info-footer-links h5 {
+    min-height: 55px;
+}
+
+.btn-order-costum {
+    background: #7cddef;
+    background: -webkit-linear-gradient(45deg, #17b7d4 10%, #7cddef 90%);
+    padding: 17px 41px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Lato;
+    border-radius: 50px;
+    text-decoration: none;
+    letter-spacing: 2.6px;
+    -webkit-box-shadow: 0px 0px 43px -1px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 0px 43px -1px rgba(0,0,0,0.16);
+    box-shadow: 0px 0px 43px -1px rgba(0, 0, 0, 0.16);
+    position: relative;
+}
+
+.servicesway h3 {
+    font-family: Lato;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 33px;
+    color: #808b96;
+    position: relative;
+}
+.plans-one-name h5>span {
+    display: block;
+    margin-top: 7px;
+    margin-left: 0;
+}
+
+.plans-one-name {
+    padding: 11px 5px;
+}
+
+.domain-search-header input {
+    margin: 8px 1px;
+}
+
+.domain-header-search-btn {
+    right: 5px;
+}
+
+.domain-price-header a {
+    padding: 5px 3px 3px 0px;
+}
+
+.slider-makout-homepage h5 {
+    padding: 0 0 0 0;
+    font-size: 25px;
+}
+
+.slider-makout-homepage {
+    margin: 24px 0;
+    padding: 14px 20px;
+}
+
+.slider-makout-homepage b {
+    display: none;
+}
+
+
+.slider-makout-homepage h5>span {
+    display: none;
+}
+
+.slider-makout-homepage h3 {
+    font-size: 21px;
+}
+
+.owl-or-theme-build .owl-stage-outer {
+    height: 480px;
+}
+
+.megatw-hst i {
+    float: left;
+    margin-right: 10px;
+}
+
+.megamenu-hosting {
+    margin: 0 -15px;
+}
+
+.errornofond {
+    font-size: 120px;
+}
+}
+
+
+@media (max-width: 767px) {
+
+.host-tt-tw-ft img {
+    width: 200px;
+}
+
+.sec-first-trmpralgo div ,.thrd-first-trmpralgo div{
+    max-width: 170px;
+}
+
+
+.src-tt-tw-or {
+    display: none;
+}
+
+
+.tittle-alg-cc-t span ,.tittle-alg-cc-t{
+    text-align: center;
+}
+
+
+.plan-tt-tw-in-al {
+    margin-top: 60px;
+    z-index: 1;
+    position: relative;
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+
+.icon-sectr-tw {
+    text-align: left;
+    width: 50%;
+    float: left;
+}
+
+.navbar-nav .open .dropdown-menu {
+    background-color: rgb(255, 255, 255);
+}
+
+.sosliovpincl {
+    display: none;
+}
+
+.ress-plans {
+    margin-bottom: 53px;
+}
+
+.qiet-demoabout span {
+    width: auto;
+}
+
+.email-img-phr{
+	width:100%;
+	max-width: 560px;
+}
+}
+
+
+@media (max-width: 425px) {
+.our-client-img {
+    display: none;
+}
+
+.phon-helf {
+    width: 50%;
+    float: left;
+}
+
+.slider-outlokblock {
+    padding: 25px 0 0;
+}
+
+.nonbtc-lo-alwer .col-md-3:nth-child(3), .nonbtc-lo-alwer .col-md-3:nth-child(4),.nonbtc-lo-alwer .col-md-3:nth-child(2) {
+    display: none;
+}
+
+.first-link-abr {
+    margin-bottom: 30px;
+}
+
+.dsrib-prtyer p a {
+    display: block;
+    width: 140px;
+    margin: auto;
+    margin-top: 13px;
+}
+
+.dsrib-prtyer {
+    padding: 100px 0 36px;
+}
+
+.cs-mrgin-img {
+    display: none;
+}
+
+.feedback-cost a img:nth-child(1),.feedback-cost a img:nth-child(3) {
+    display: none !important;
+}
+
+
+#email-subscribe:after {
+    top: -132px;
+}
+
+#email-subscribe:before {
+    bottom: -132px;
+}
+
+#footer .socialicons .col-md-3 a>i {
+    z-index: 2;
+}
+
+
+.comterbackwh .col-md-3 {
+    width: 50%;
+	float: left;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+.host-tt-tw-ft img {
+    width: 200px;
+}
+
+.sec-first-trmpralgo div ,.thrd-first-trmpralgo div{
+    max-width: 170px;
+}
+
+
+.src-tt-tw-or {
+    display: none;
+}
+
+
+.tittle-alg-cc-t span ,.tittle-alg-cc-t{
+    text-align: center;
+	
+}
+
+
+.tittle-alg-cc-t{
+    margin-bottom: 50px;
+}
+
+.plan-tt-tw-in-al {
+    margin-top: 60px;
+    z-index: 1;
+    position: relative;
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+
+.icon-sectr-tw {
+    text-align: left;
+    width: 50%;
+    float: left;
+}
+
+.tittle-alg-cc-t:after {
+    content: '';
+    height: 3px;
+    width: 45px;
+    background: #504b8c;
+    display: block;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -12px;
+}
+
+.client-area-tt-we {
+    margin: 90px 0 0;
+    display: none;
+}
+
+
+}
+
+
+
+@media (max-width: 620px) {
+.host-tt-tw-ft {
+    display: none;
+}
+
+.first-trmpralgo {
+    width: auto;
+    padding: 0 60px;
+}
+
+
+}
+
+@media (max-width: 400px) {
+.icon-sectr-tw {
+    min-height: 280px;
+}
+}
+	
