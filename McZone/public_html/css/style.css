@@ -210,6 +210,8 @@ ul {
 }
 
 .loader img {
+	height: 10%;
+	width: 10%;
 	animation: loader 0.8s linear infinite;
 	-webkit-animation: loader 0.8s linear infinite;
 }
@@ -1741,4 +1743,4 @@ ul {
 	.buttons button {
 		margin-bottom: 20px;
 	}
-}
+}f
