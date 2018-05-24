@@ -267,3 +267,27 @@ function progressCircle() {
 	progressCircle();
 
 })(jQuery);
+
+
+
+
+
+var bgImageArray = ["http://static.panoramio.com/photos/original/22674142.jpg", "http://images.jdmagicbox.com/comp/kota-rajasthan/u3/9999px744.x744.140530142631.y1u3/catalogue/royal-cottage-hostels-rajeev-gandhi-nagar-kota-rajasthan-il096.jpg", "http://www.boyshostelkota.com/images/gallery/hint/2.jpg"],
+
+secs = 4;
+bgImageArray.forEach(function(img){
+    new Image().src = img; 
+});
+
+function backgroundSequence() {
+	window.clearTimeout();
+	var k = 0;
+	for (i = 0; i < bgImageArray.length; i++) {
+		setTimeout(function(){ 
+			document.body.style.background = "url(" + bgImageArray[k] + ") no-repeat center center fixed";
+			document.body.style.backgroundSize ="cover";
+		if ((k + 1) === bgImageArray.length) { setTimeout(function() { backgroundSequence() }, (secs * 10))} else { k++; }			
+		}, (secs * 10) * i)	
+	}
+}
+backgroundSequence();

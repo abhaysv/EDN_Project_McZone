@@ -403,7 +403,7 @@ ul {
 .about-section,
 .team-section {
 	//background: #6a23b5;
-	background-image: url(https://media.giphy.com/media/l0HlwdoVlUfDBV8ac/giphy.gif);
+	/*background-image: url(https://media.giphy.com/media/l0HlwdoVlUfDBV8ac/giphy.gif);*/
 	background: cover;
 	position: relative;
 	z-index: 2;
