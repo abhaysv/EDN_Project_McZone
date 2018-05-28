@@ -105,6 +105,7 @@ ul {
 .spad {
 	padding-top: 95px;
 	padding-bottom: 95px;
+
 }
 
 .section-title {
@@ -404,6 +405,7 @@ ul {
 .team-section {
 	background: gray;
 	/*background-image: url(https://media.giphy.com/media/l0HlwdoVlUfDBV8ac/giphy.gif);*/
+	background: url(../img/overlay2.png);
 	background: cover;
 	position: relative;
 	z-index: 2;
