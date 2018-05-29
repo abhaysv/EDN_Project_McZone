@@ -212,7 +212,7 @@ ul {
 
 .loader img {
 	height: 10%;
-	width: 10%;
+	width: 13%;
 	animation: loader 0.8s linear infinite;
 	-webkit-animation: loader 0.8s linear infinite;
 }
@@ -405,7 +405,7 @@ ul {
 .team-section {
 	background: gray;
 	/*background-image: url(https://media.giphy.com/media/l0HlwdoVlUfDBV8ac/giphy.gif);*/
-	background: url(../img/overlay2.png);
+	/*background: url(../img/overlay2.png);*/
 	background: cover;
 	position: relative;
 	z-index: 2;
@@ -1597,9 +1597,10 @@ ul {
 
 /* Large Mobile :480px. */
 @media only screen and (max-width: 767px) {
-	.header-section .logo {
+	.header-section .logo a img{
 		padding-top: 20px;
 		padding-bottom: 20px;
+		height: 91px;
 	}
 	.header-section .menu-list {
 		display: none;
