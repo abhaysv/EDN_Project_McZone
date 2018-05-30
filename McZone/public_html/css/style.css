@@ -217,6 +217,19 @@ ul {
 	-webkit-animation: loader 0.8s linear infinite;
 }
 
+@media only screen and (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */
+
+.loader img {
+	height: 9%;
+	width: 17%;
+	animation: loader 0.8s linear infinite;
+	-webkit-animation: loader 0.8s linear infinite;
+}
+
+
+ }
+
+
 .loader h2 {
 	font-size: 14px;
 	margin-top: 10px;
